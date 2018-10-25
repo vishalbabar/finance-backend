@@ -15,10 +15,11 @@ import java.util.Map;
 @RequestMapping(value = "/financeController")
 public class FinanceController {
 
-    @RequestMapping(value = "/print",method = RequestMethod.GET)
-    public ResponseEntity<Map<String,String>> print(@RequestParam String name){
-        System.out.println("Hello"+name);
-        return new ResponseEntity<Map<String, String>>(Collections.singletonMap("response", name), HttpStatus.OK);
-
-    }
+  @RequestMapping(value = "/print", method = RequestMethod.GET)
+  public ResponseEntity<Map<String, String>> print(@RequestParam String name) {
+    System.out.println("Hello" + name);
+    
+    return new ResponseEntity<Map<String, String>>(Collections.singletonMap("response", name),
+        HttpStatus.OK);
+  }
 }

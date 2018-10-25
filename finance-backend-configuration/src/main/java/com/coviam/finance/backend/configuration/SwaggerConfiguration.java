@@ -15,17 +15,14 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @Configuration
 @EnableSwagger2
 @EnableAutoConfiguration
-public class SwaggerConfiguration{
+public class SwaggerConfiguration {
 
-    @Bean
-    public Docket api()
-    {
-        return new Docket(DocumentationType.SWAGGER_2).select()
-                .apis(RequestHandlerSelectors.withClassAnnotation(RestController.class))
-                .paths(PathSelectors.any()).build()
-                .genericModelSubstitutes(DeferredResult.class,ResponseEntity.class);
-    }
-
-
+  @Bean
+  public Docket api() {
+    return new Docket(DocumentationType.SWAGGER_2).select()
+        .apis(RequestHandlerSelectors.withClassAnnotation(RestController.class))
+        .paths(PathSelectors.any()).build()
+        .genericModelSubstitutes(DeferredResult.class, ResponseEntity.class);
+  }
 }
 
