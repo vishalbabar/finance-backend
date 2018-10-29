@@ -10,6 +10,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>finance-backend-service-impl</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.coviam.finance</groupId>
+            <artifactId>finance-service-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.coviam.finance</groupId>
+            <artifactId>finance-backend-repository</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.coviam.finance</groupId>
+            <artifactId>finance-backend-master-model</artifactId>
+        </dependency>
+    </dependencies>
 
 
 </project>
