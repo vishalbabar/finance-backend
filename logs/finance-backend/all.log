@@ -1,0 +1,719 @@
+[2018-10-30T12:47:28,596+07:00]  INFO 12494 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 12494 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T12:47:28,603+07:00]  INFO 12494 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T12:47:29,609+07:00]  INFO 12494 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T12:47:42,454+07:00]  INFO 12494 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T12:47:42,482+07:00]  INFO 12494 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T12:47:43,943+07:00]  INFO 12494 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T12:47:48,002+07:00]  INFO 12494 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T12:47:49,838+07:00]  INFO 12494 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T12:47:49,842+07:00]  INFO 12494 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T12:47:49,847+07:00]  INFO 12494 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T12:47:50,092+07:00]  INFO 12494 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T12:47:51,171+07:00]  INFO 12494 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T12:47:51,700+07:00]  INFO 12494 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T12:47:51,706+07:00]  INFO 12494 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7161457
+[2018-10-30T12:47:56,132+07:00]  INFO 12494 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T12:47:56,415+07:00]  INFO 12494 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: currency_master
+[2018-10-30T12:47:56,418+07:00]  INFO 12494 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: currency_master
+[2018-10-30T12:47:57,910+07:00]  INFO 12494 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T12:47:57,956+07:00]  WARN 12494 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T12:47:57,960+07:00]  INFO 12494 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T12:47:57,965+07:00]  INFO 12494 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T12:47:57,968+07:00]  INFO 12494 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T12:47:57,969+07:00]  INFO 12494 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T12:48:00,371+07:00]  INFO 12494 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-30T12:48:02,389+07:00]  INFO 12494 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T12:48:03,082+07:00]  INFO 12494 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T12:48:03,159+07:00]  INFO 12494 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T12:48:03,519+07:00]  INFO 12494 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T12:48:03,550+07:00]  INFO 12494 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T12:48:03,591+07:00]  INFO 12494 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T12:48:03,633+07:00]  INFO 12494 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 37.126 seconds (JVM running for 38.887)
+[2018-10-30T12:48:10,732+07:00]  INFO 12494 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T12:49:48,012+07:00]  INFO 12494 --- [http-nio-8084-exec-5] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+[2018-10-30T12:50:54,142+07:00]  INFO 12573 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 12573 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T12:50:54,147+07:00]  INFO 12573 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T12:50:55,071+07:00]  INFO 12573 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T12:50:59,172+07:00]  INFO 12573 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T12:50:59,174+07:00]  INFO 12573 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T12:50:59,390+07:00]  INFO 12573 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T12:51:00,160+07:00]  INFO 12573 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T12:51:00,297+07:00]  INFO 12573 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T12:51:00,299+07:00]  INFO 12573 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T12:51:00,301+07:00]  INFO 12573 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T12:51:00,386+07:00]  INFO 12573 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T12:51:00,816+07:00]  INFO 12573 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T12:51:01,091+07:00]  INFO 12573 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T12:51:01,096+07:00]  INFO 12573 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@535b1ae6
+[2018-10-30T12:51:01,601+07:00]  INFO 12573 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T12:51:02,310+07:00]  INFO 12573 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T12:51:02,552+07:00]  WARN 12573 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T12:51:02,555+07:00]  INFO 12573 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T12:51:02,560+07:00]  INFO 12573 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T12:51:02,562+07:00]  INFO 12573 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T12:51:02,563+07:00]  INFO 12573 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T12:51:04,394+07:00]  INFO 12573 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-30T12:51:05,733+07:00]  INFO 12573 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T12:51:05,775+07:00]  INFO 12573 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T12:51:05,837+07:00]  INFO 12573 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T12:51:06,107+07:00]  INFO 12573 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T12:51:06,126+07:00]  INFO 12573 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T12:51:06,169+07:00]  INFO 12573 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T12:51:06,211+07:00]  INFO 12573 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 13.418 seconds (JVM running for 14.272)
+[2018-10-30T12:51:20,563+07:00]  INFO 12573 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T12:53:19,126+07:00]  INFO 12631 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 12631 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T12:53:19,132+07:00]  INFO 12631 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T12:53:19,962+07:00]  INFO 12631 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T12:53:23,824+07:00]  INFO 12631 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T12:53:23,826+07:00]  INFO 12631 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T12:53:24,038+07:00]  INFO 12631 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T12:53:24,842+07:00]  INFO 12631 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T12:53:24,990+07:00]  INFO 12631 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T12:53:24,994+07:00]  INFO 12631 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T12:53:24,997+07:00]  INFO 12631 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T12:53:25,149+07:00]  INFO 12631 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T12:53:25,595+07:00]  INFO 12631 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T12:53:25,904+07:00]  INFO 12631 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T12:53:25,909+07:00]  INFO 12631 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@32118208
+[2018-10-30T12:53:26,439+07:00]  INFO 12631 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T12:53:27,216+07:00]  INFO 12631 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T12:53:27,227+07:00]  WARN 12631 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T12:53:27,231+07:00]  INFO 12631 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T12:53:27,235+07:00]  INFO 12631 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T12:53:27,237+07:00]  INFO 12631 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T12:53:27,239+07:00]  INFO 12631 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T12:53:30,557+07:00]  INFO 12631 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T12:53:30,599+07:00]  INFO 12631 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T12:53:30,622+07:00]  INFO 12631 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T12:53:30,909+07:00]  INFO 12631 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T12:53:30,937+07:00]  INFO 12631 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T12:53:30,983+07:00]  INFO 12631 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T12:53:31,028+07:00]  INFO 12631 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 13.327 seconds (JVM running for 14.787)
+[2018-10-30T12:53:36,752+07:00]  INFO 12631 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T12:54:21,337+07:00]  INFO 12667 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 12667 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T12:54:21,364+07:00]  INFO 12667 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T12:54:22,279+07:00]  INFO 12667 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T12:54:26,395+07:00]  INFO 12667 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T12:54:26,397+07:00]  INFO 12667 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T12:54:26,607+07:00]  INFO 12667 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T12:54:27,379+07:00]  INFO 12667 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T12:54:27,541+07:00]  INFO 12667 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T12:54:27,545+07:00]  INFO 12667 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T12:54:27,550+07:00]  INFO 12667 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T12:54:27,640+07:00]  INFO 12667 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T12:54:28,076+07:00]  INFO 12667 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T12:54:28,351+07:00]  INFO 12667 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T12:54:28,355+07:00]  INFO 12667 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@22bdb1d0
+[2018-10-30T12:54:28,836+07:00]  INFO 12667 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T12:54:29,473+07:00]  INFO 12667 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T12:54:29,485+07:00]  WARN 12667 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T12:54:29,488+07:00]  INFO 12667 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T12:54:29,493+07:00]  INFO 12667 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T12:54:29,495+07:00]  INFO 12667 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T12:54:29,496+07:00]  INFO 12667 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T12:54:32,782+07:00]  INFO 12667 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T12:54:32,820+07:00]  INFO 12667 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T12:54:32,846+07:00]  INFO 12667 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T12:54:33,140+07:00]  INFO 12667 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T12:54:33,161+07:00]  INFO 12667 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T12:54:33,204+07:00]  INFO 12667 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T12:54:33,247+07:00]  INFO 12667 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 13.171 seconds (JVM running for 13.95)
+[2018-10-30T12:54:36,842+07:00]  INFO 12667 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T12:55:56,837+07:00]  INFO 12702 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 12702 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T12:55:56,847+07:00]  INFO 12702 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T12:55:57,895+07:00]  INFO 12702 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T12:56:02,741+07:00]  INFO 12702 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T12:56:02,743+07:00]  INFO 12702 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T12:56:02,947+07:00]  INFO 12702 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T12:56:03,920+07:00]  INFO 12702 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T12:56:04,067+07:00]  INFO 12702 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T12:56:04,070+07:00]  INFO 12702 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T12:56:04,072+07:00]  INFO 12702 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T12:56:04,149+07:00]  INFO 12702 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T12:56:04,592+07:00]  INFO 12702 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T12:56:04,957+07:00]  INFO 12702 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T12:56:04,962+07:00]  INFO 12702 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4dd90166
+[2018-10-30T12:56:05,520+07:00]  INFO 12702 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T12:56:06,238+07:00]  INFO 12702 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T12:56:06,250+07:00]  WARN 12702 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T12:56:06,256+07:00]  INFO 12702 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T12:56:06,264+07:00]  INFO 12702 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T12:56:06,267+07:00]  INFO 12702 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T12:56:06,272+07:00]  INFO 12702 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T12:56:09,926+07:00]  INFO 12702 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T12:56:09,961+07:00]  INFO 12702 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T12:56:09,986+07:00]  INFO 12702 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T12:56:10,314+07:00]  INFO 12702 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T12:56:10,331+07:00]  INFO 12702 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T12:56:10,376+07:00]  INFO 12702 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T12:56:10,420+07:00]  INFO 12702 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 15.213 seconds (JVM running for 16.461)
+[2018-10-30T12:56:23,860+07:00]  INFO 12702 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T12:59:27,725+07:00]  INFO 12773 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 12773 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T12:59:27,733+07:00]  INFO 12773 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T12:59:28,696+07:00]  INFO 12773 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T12:59:33,049+07:00]  INFO 12773 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T12:59:33,051+07:00]  INFO 12773 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T12:59:33,298+07:00]  INFO 12773 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T12:59:33,986+07:00]  INFO 12773 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T12:59:34,131+07:00]  INFO 12773 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T12:59:34,134+07:00]  INFO 12773 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T12:59:34,137+07:00]  INFO 12773 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T12:59:34,219+07:00]  INFO 12773 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T12:59:34,687+07:00]  INFO 12773 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T12:59:34,962+07:00]  INFO 12773 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T12:59:34,966+07:00]  INFO 12773 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@69909c14
+[2018-10-30T12:59:35,485+07:00]  INFO 12773 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T12:59:36,066+07:00]  INFO 12773 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T12:59:36,076+07:00]  WARN 12773 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T12:59:36,079+07:00]  INFO 12773 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T12:59:36,084+07:00]  INFO 12773 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T12:59:36,086+07:00]  INFO 12773 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T12:59:36,087+07:00]  INFO 12773 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T12:59:39,246+07:00]  INFO 12773 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T12:59:39,283+07:00]  INFO 12773 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T12:59:39,298+07:00]  INFO 12773 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T12:59:39,585+07:00]  INFO 12773 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T12:59:39,607+07:00]  INFO 12773 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T12:59:39,654+07:00]  INFO 12773 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T12:59:39,697+07:00]  INFO 12773 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 13.365 seconds (JVM running for 14.168)
+[2018-10-30T12:59:53,305+07:00]  INFO 12773 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T13:00:05,991+07:00]  INFO 12773 --- [http-nio-8084-exec-8] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+[2018-10-30T13:01:04,974+07:00]  INFO 12806 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 12806 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T13:01:04,981+07:00]  INFO 12806 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T13:01:05,977+07:00]  INFO 12806 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T13:01:10,156+07:00]  INFO 12806 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T13:01:10,159+07:00]  INFO 12806 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T13:01:10,355+07:00]  INFO 12806 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T13:01:11,177+07:00]  INFO 12806 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T13:01:11,306+07:00]  INFO 12806 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T13:01:11,309+07:00]  INFO 12806 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T13:01:11,311+07:00]  INFO 12806 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T13:01:11,392+07:00]  INFO 12806 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T13:01:11,827+07:00]  INFO 12806 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T13:01:12,170+07:00]  INFO 12806 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T13:01:12,176+07:00]  INFO 12806 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5ad1904f
+[2018-10-30T13:01:12,705+07:00]  INFO 12806 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T13:01:13,310+07:00]  INFO 12806 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T13:01:13,321+07:00]  WARN 12806 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T13:01:13,325+07:00]  INFO 12806 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T13:01:13,329+07:00]  INFO 12806 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T13:01:13,334+07:00]  INFO 12806 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T13:01:13,335+07:00]  INFO 12806 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T13:01:16,485+07:00]  INFO 12806 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T13:01:16,523+07:00]  INFO 12806 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T13:01:16,540+07:00]  INFO 12806 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T13:01:16,855+07:00]  INFO 12806 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:01:16,880+07:00]  INFO 12806 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:01:16,929+07:00]  INFO 12806 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T13:01:16,978+07:00]  INFO 12806 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 13.326 seconds (JVM running for 14.124)
+[2018-10-30T13:01:20,114+07:00]  INFO 12806 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T13:01:29,283+07:00]  INFO 12806 --- [http-nio-8084-exec-8] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+[2018-10-30T13:02:19,519+07:00]  INFO 12839 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 12839 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T13:02:19,525+07:00]  INFO 12839 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T13:02:20,426+07:00]  INFO 12839 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T13:02:24,191+07:00]  INFO 12839 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T13:02:24,197+07:00]  INFO 12839 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T13:02:24,406+07:00]  INFO 12839 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T13:02:25,169+07:00]  INFO 12839 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T13:02:25,305+07:00]  INFO 12839 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T13:02:25,308+07:00]  INFO 12839 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T13:02:25,310+07:00]  INFO 12839 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T13:02:25,393+07:00]  INFO 12839 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T13:02:25,835+07:00]  INFO 12839 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T13:02:26,145+07:00]  INFO 12839 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T13:02:26,151+07:00]  INFO 12839 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3135bf25
+[2018-10-30T13:02:26,668+07:00]  INFO 12839 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T13:02:27,254+07:00]  INFO 12839 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T13:02:27,266+07:00]  WARN 12839 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T13:02:27,270+07:00]  INFO 12839 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T13:02:27,275+07:00]  INFO 12839 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T13:02:27,277+07:00]  INFO 12839 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T13:02:27,278+07:00]  INFO 12839 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T13:02:30,467+07:00]  INFO 12839 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T13:02:30,502+07:00]  INFO 12839 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T13:02:30,519+07:00]  INFO 12839 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T13:02:30,803+07:00]  INFO 12839 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:02:30,829+07:00]  INFO 12839 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:02:30,873+07:00]  INFO 12839 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T13:02:30,919+07:00]  INFO 12839 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 12.987 seconds (JVM running for 13.827)
+[2018-10-30T13:02:37,665+07:00]  INFO 12839 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T13:02:46,201+07:00]  INFO 12839 --- [http-nio-8084-exec-8] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+[2018-10-30T13:03:52,863+07:00]  INFO 12870 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 12870 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T13:03:52,871+07:00]  INFO 12870 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T13:03:53,732+07:00]  INFO 12870 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T13:03:57,602+07:00]  INFO 12870 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T13:03:57,608+07:00]  INFO 12870 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T13:03:57,806+07:00]  INFO 12870 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T13:03:58,534+07:00]  INFO 12870 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T13:03:58,662+07:00]  INFO 12870 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T13:03:58,665+07:00]  INFO 12870 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T13:03:58,667+07:00]  INFO 12870 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T13:03:58,752+07:00]  INFO 12870 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T13:03:59,175+07:00]  INFO 12870 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T13:03:59,448+07:00]  INFO 12870 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T13:03:59,453+07:00]  INFO 12870 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@67b355c8
+[2018-10-30T13:03:59,939+07:00]  INFO 12870 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T13:04:00,556+07:00]  INFO 12870 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T13:04:00,567+07:00]  WARN 12870 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T13:04:00,571+07:00]  INFO 12870 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T13:04:00,574+07:00]  INFO 12870 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T13:04:00,576+07:00]  INFO 12870 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T13:04:00,577+07:00]  INFO 12870 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T13:04:03,976+07:00]  INFO 12870 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T13:04:04,014+07:00]  INFO 12870 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T13:04:04,031+07:00]  INFO 12870 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T13:04:04,323+07:00]  INFO 12870 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:04:04,344+07:00]  INFO 12870 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:04:04,387+07:00]  INFO 12870 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T13:04:04,427+07:00]  INFO 12870 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 12.862 seconds (JVM running for 13.872)
+[2018-10-30T13:04:19,391+07:00]  INFO 12870 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T13:04:24,964+07:00]  INFO 12870 --- [http-nio-8084-exec-8] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+[2018-10-30T13:07:18,951+07:00]  INFO 12986 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 12986 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T13:07:18,956+07:00]  INFO 12986 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T13:07:19,788+07:00]  INFO 12986 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T13:07:23,483+07:00]  INFO 12986 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T13:07:23,485+07:00]  INFO 12986 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T13:07:23,683+07:00]  INFO 12986 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T13:07:24,453+07:00]  INFO 12986 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T13:07:24,601+07:00]  INFO 12986 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T13:07:24,604+07:00]  INFO 12986 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T13:07:24,608+07:00]  INFO 12986 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T13:07:24,700+07:00]  INFO 12986 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T13:07:25,144+07:00]  INFO 12986 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T13:07:25,434+07:00]  INFO 12986 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T13:07:25,446+07:00]  INFO 12986 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4ed5a1b0
+[2018-10-30T13:07:25,931+07:00]  INFO 12986 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T13:07:26,507+07:00]  INFO 12986 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T13:07:26,517+07:00]  WARN 12986 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T13:07:26,521+07:00]  INFO 12986 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T13:07:26,526+07:00]  INFO 12986 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T13:07:26,528+07:00]  INFO 12986 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T13:07:26,533+07:00]  INFO 12986 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T13:07:29,637+07:00]  INFO 12986 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T13:07:29,670+07:00]  INFO 12986 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T13:07:29,686+07:00]  INFO 12986 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T13:07:29,987+07:00]  INFO 12986 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:07:30,010+07:00]  INFO 12986 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:07:30,055+07:00]  INFO 12986 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T13:07:30,092+07:00]  INFO 12986 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 12.521 seconds (JVM running for 13.373)
+[2018-10-30T13:07:34,886+07:00]  INFO 12986 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T13:07:40,686+07:00]  INFO 12986 --- [http-nio-8084-exec-8] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+[2018-10-30T13:09:00,009+07:00]  INFO 13045 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 13045 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T13:09:00,031+07:00]  INFO 13045 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T13:09:00,810+07:00]  INFO 13045 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T13:09:04,653+07:00]  INFO 13045 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T13:09:04,659+07:00]  INFO 13045 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T13:09:04,879+07:00]  INFO 13045 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T13:09:05,577+07:00]  INFO 13045 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T13:09:05,686+07:00]  INFO 13045 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T13:09:05,690+07:00]  INFO 13045 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T13:09:05,692+07:00]  INFO 13045 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T13:09:05,757+07:00]  INFO 13045 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T13:09:06,141+07:00]  INFO 13045 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T13:09:06,465+07:00]  INFO 13045 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T13:09:06,470+07:00]  INFO 13045 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@45900b64
+[2018-10-30T13:09:06,881+07:00]  INFO 13045 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T13:09:07,435+07:00]  INFO 13045 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T13:09:07,444+07:00]  WARN 13045 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T13:09:07,447+07:00]  INFO 13045 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T13:09:07,451+07:00]  INFO 13045 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T13:09:07,453+07:00]  INFO 13045 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T13:09:07,454+07:00]  INFO 13045 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T13:09:10,463+07:00]  INFO 13045 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T13:09:10,499+07:00]  INFO 13045 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T13:09:10,517+07:00]  INFO 13045 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T13:09:10,821+07:00]  INFO 13045 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:09:10,840+07:00]  INFO 13045 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:09:10,878+07:00]  INFO 13045 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T13:09:10,914+07:00]  INFO 13045 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 12.519 seconds (JVM running for 13.423)
+[2018-10-30T13:09:21,953+07:00]  INFO 13045 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T13:09:32,899+07:00]  INFO 13045 --- [http-nio-8084-exec-7] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+[2018-10-30T13:12:22,877+07:00]  INFO 13126 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 13126 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T13:12:22,882+07:00]  INFO 13126 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T13:12:23,820+07:00]  INFO 13126 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T13:12:27,833+07:00]  INFO 13126 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T13:12:27,835+07:00]  INFO 13126 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T13:12:28,025+07:00]  INFO 13126 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T13:12:28,705+07:00]  INFO 13126 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T13:12:28,822+07:00]  INFO 13126 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T13:12:28,824+07:00]  INFO 13126 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T13:12:28,827+07:00]  INFO 13126 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T13:12:28,877+07:00]  INFO 13126 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T13:12:29,245+07:00]  INFO 13126 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T13:12:29,428+07:00]  INFO 13126 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T13:12:29,432+07:00]  INFO 13126 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@32118208
+[2018-10-30T13:12:29,899+07:00]  INFO 13126 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T13:12:30,484+07:00]  INFO 13126 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T13:12:30,494+07:00]  WARN 13126 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T13:12:30,497+07:00]  INFO 13126 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T13:12:30,502+07:00]  INFO 13126 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T13:12:30,504+07:00]  INFO 13126 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T13:12:30,505+07:00]  INFO 13126 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T13:12:33,808+07:00]  INFO 13126 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T13:12:33,846+07:00]  INFO 13126 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T13:12:33,864+07:00]  INFO 13126 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T13:12:34,166+07:00]  INFO 13126 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:12:34,186+07:00]  INFO 13126 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:12:34,229+07:00]  INFO 13126 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T13:12:34,278+07:00]  INFO 13126 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 12.765 seconds (JVM running for 13.679)
+[2018-10-30T13:12:46,929+07:00]  INFO 13126 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T13:12:53,307+07:00]  INFO 13126 --- [http-nio-8084-exec-8] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+[2018-10-30T13:13:43,837+07:00]  INFO 13154 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 13154 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T13:13:43,842+07:00]  INFO 13154 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T13:13:44,710+07:00]  INFO 13154 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T13:13:48,279+07:00]  INFO 13154 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T13:13:48,281+07:00]  INFO 13154 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T13:13:48,508+07:00]  INFO 13154 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T13:13:49,247+07:00]  INFO 13154 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T13:13:49,358+07:00]  INFO 13154 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T13:13:49,361+07:00]  INFO 13154 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T13:13:49,363+07:00]  INFO 13154 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T13:13:49,414+07:00]  INFO 13154 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T13:13:49,765+07:00]  INFO 13154 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T13:13:49,931+07:00]  INFO 13154 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T13:13:49,935+07:00]  INFO 13154 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@642a16aa
+[2018-10-30T13:13:50,359+07:00]  INFO 13154 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T13:13:50,926+07:00]  INFO 13154 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T13:13:50,937+07:00]  WARN 13154 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T13:13:50,941+07:00]  INFO 13154 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T13:13:50,944+07:00]  INFO 13154 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T13:13:50,946+07:00]  INFO 13154 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T13:13:50,947+07:00]  INFO 13154 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T13:13:54,199+07:00]  INFO 13154 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T13:13:54,238+07:00]  INFO 13154 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T13:13:54,255+07:00]  INFO 13154 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T13:13:54,572+07:00]  INFO 13154 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:13:54,593+07:00]  INFO 13154 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:13:54,633+07:00]  INFO 13154 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T13:13:54,672+07:00]  INFO 13154 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 12.421 seconds (JVM running for 13.503)
+[2018-10-30T13:14:47,166+07:00]  INFO 13154 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T13:14:47,310+07:00]  INFO 13154 --- [http-nio-8084-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+[2018-10-30T13:19:10,951+07:00]  INFO 13279 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 13279 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T13:19:10,974+07:00]  INFO 13279 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T13:19:11,797+07:00]  INFO 13279 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T13:19:15,666+07:00]  INFO 13279 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T13:19:15,673+07:00]  INFO 13279 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T13:19:15,907+07:00]  INFO 13279 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T13:19:16,640+07:00]  INFO 13279 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T13:19:16,758+07:00]  INFO 13279 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T13:19:16,761+07:00]  INFO 13279 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T13:19:16,764+07:00]  INFO 13279 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T13:19:16,831+07:00]  INFO 13279 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T13:19:17,247+07:00]  INFO 13279 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T13:19:17,405+07:00]  INFO 13279 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T13:19:17,410+07:00]  INFO 13279 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@388623ad
+[2018-10-30T13:19:17,941+07:00]  INFO 13279 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T13:19:18,445+07:00]  INFO 13279 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T13:19:18,459+07:00]  WARN 13279 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T13:19:18,462+07:00]  INFO 13279 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T13:19:18,465+07:00]  INFO 13279 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T13:19:18,467+07:00]  INFO 13279 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T13:19:18,468+07:00]  INFO 13279 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T13:19:21,568+07:00]  INFO 13279 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T13:19:21,609+07:00]  INFO 13279 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T13:19:21,626+07:00]  INFO 13279 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T13:19:21,932+07:00]  INFO 13279 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:19:21,958+07:00]  INFO 13279 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:19:22,004+07:00]  INFO 13279 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T13:19:22,048+07:00]  INFO 13279 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 12.659 seconds (JVM running for 13.518)
+[2018-10-30T13:20:36,979+07:00]  INFO 13279 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T13:27:59,238+07:00]  INFO 13466 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 13466 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T13:27:59,242+07:00]  INFO 13466 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T13:28:00,138+07:00]  INFO 13466 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T13:28:04,063+07:00]  INFO 13466 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T13:28:04,065+07:00]  INFO 13466 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T13:28:04,265+07:00]  INFO 13466 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T13:28:04,928+07:00]  INFO 13466 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T13:28:05,050+07:00]  INFO 13466 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T13:28:05,053+07:00]  INFO 13466 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T13:28:05,055+07:00]  INFO 13466 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T13:28:05,125+07:00]  INFO 13466 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T13:28:05,526+07:00]  INFO 13466 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T13:28:05,701+07:00]  INFO 13466 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T13:28:05,706+07:00]  INFO 13466 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@46e3559f
+[2018-10-30T13:28:06,152+07:00]  INFO 13466 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T13:28:06,299+07:00]  INFO 13466 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+[2018-10-30T13:29:42,086+07:00]  INFO 13502 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 13502 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T13:29:42,094+07:00]  INFO 13502 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T13:29:43,630+07:00]  INFO 13502 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T13:29:49,499+07:00]  INFO 13502 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T13:29:49,503+07:00]  INFO 13502 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T13:29:49,703+07:00]  INFO 13502 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T13:29:50,624+07:00]  INFO 13502 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T13:29:50,751+07:00]  INFO 13502 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T13:29:50,755+07:00]  INFO 13502 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T13:29:50,758+07:00]  INFO 13502 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T13:29:50,833+07:00]  INFO 13502 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T13:29:51,439+07:00]  INFO 13502 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T13:29:51,711+07:00]  INFO 13502 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T13:29:51,715+07:00]  INFO 13502 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4e224df5
+[2018-10-30T13:29:52,278+07:00]  INFO 13502 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T13:29:53,046+07:00]  INFO 13502 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T13:29:53,060+07:00]  WARN 13502 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T13:29:53,065+07:00]  INFO 13502 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T13:29:53,172+07:00]  INFO 13502 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T13:29:53,175+07:00]  INFO 13502 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T13:29:53,176+07:00]  INFO 13502 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T13:29:57,246+07:00]  INFO 13502 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T13:29:57,284+07:00]  INFO 13502 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T13:29:57,302+07:00]  INFO 13502 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T13:29:57,812+07:00]  INFO 13502 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:29:57,839+07:00]  INFO 13502 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:29:57,888+07:00]  INFO 13502 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T13:29:57,934+07:00]  INFO 13502 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 17.237 seconds (JVM running for 18.098)
+[2018-10-30T13:30:30,795+07:00]  INFO 13532 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 13532 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T13:30:30,801+07:00]  INFO 13532 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T13:30:31,951+07:00]  INFO 13532 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T13:30:36,034+07:00]  INFO 13532 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T13:30:36,038+07:00]  INFO 13532 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T13:30:36,328+07:00]  INFO 13532 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T13:30:37,155+07:00]  INFO 13532 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T13:30:37,274+07:00]  INFO 13532 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T13:30:37,277+07:00]  INFO 13532 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T13:30:37,280+07:00]  INFO 13532 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T13:30:37,352+07:00]  INFO 13532 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T13:30:37,778+07:00]  INFO 13532 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T13:30:37,994+07:00]  INFO 13532 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T13:30:37,999+07:00]  INFO 13532 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@342e690b
+[2018-10-30T13:30:38,452+07:00]  INFO 13532 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T13:30:38,994+07:00]  INFO 13532 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T13:30:39,008+07:00]  WARN 13532 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T13:30:39,010+07:00]  INFO 13532 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T13:30:39,015+07:00]  INFO 13532 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T13:30:39,016+07:00]  INFO 13532 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T13:30:39,017+07:00]  INFO 13532 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T13:30:42,558+07:00]  INFO 13532 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T13:30:42,600+07:00]  INFO 13532 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T13:30:42,620+07:00]  INFO 13532 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T13:30:42,953+07:00]  INFO 13532 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:30:42,979+07:00]  INFO 13532 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:30:43,034+07:00]  INFO 13532 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T13:30:43,085+07:00]  INFO 13532 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 13.681 seconds (JVM running for 14.557)
+[2018-10-30T13:30:44,096+07:00]  INFO 13532 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T13:30:51,923+07:00]  INFO 13532 --- [http-nio-8084-exec-8] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+[2018-10-30T13:31:13,727+07:00]  INFO 13551 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 13551 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T13:31:13,734+07:00]  INFO 13551 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T13:31:14,465+07:00]  INFO 13551 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T13:31:18,786+07:00]  INFO 13551 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T13:31:18,790+07:00]  INFO 13551 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T13:31:19,078+07:00]  INFO 13551 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T13:31:19,894+07:00]  INFO 13551 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T13:31:20,031+07:00]  INFO 13551 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T13:31:20,035+07:00]  INFO 13551 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T13:31:20,038+07:00]  INFO 13551 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T13:31:20,109+07:00]  INFO 13551 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T13:31:20,578+07:00]  INFO 13551 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T13:31:20,801+07:00]  INFO 13551 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T13:31:20,807+07:00]  INFO 13551 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@668a32a4
+[2018-10-30T13:31:21,433+07:00]  INFO 13551 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T13:31:22,221+07:00]  INFO 13551 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T13:31:22,241+07:00]  WARN 13551 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T13:31:22,245+07:00]  INFO 13551 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T13:31:22,252+07:00]  INFO 13551 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T13:31:22,254+07:00]  INFO 13551 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T13:31:22,256+07:00]  INFO 13551 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T13:31:26,243+07:00]  INFO 13551 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T13:31:26,287+07:00]  INFO 13551 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T13:31:26,309+07:00]  INFO 13551 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T13:31:26,672+07:00]  INFO 13551 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:31:26,703+07:00]  INFO 13551 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T13:31:26,751+07:00]  INFO 13551 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T13:31:26,803+07:00]  INFO 13551 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 14.866 seconds (JVM running for 16.23)
+[2018-10-30T13:31:34,529+07:00]  INFO 13551 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T13:31:51,084+07:00]  INFO 13551 --- [http-nio-8084-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+[2018-10-30T16:00:33,227+07:00]  INFO 15174 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 15174 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T16:00:33,240+07:00]  INFO 15174 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T16:00:34,223+07:00]  INFO 15174 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T16:00:38,858+07:00]  INFO 15174 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T16:00:38,860+07:00]  INFO 15174 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T16:00:39,113+07:00]  INFO 15174 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T16:00:39,843+07:00]  INFO 15174 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T16:00:39,962+07:00]  INFO 15174 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T16:00:39,966+07:00]  INFO 15174 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T16:00:39,970+07:00]  INFO 15174 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T16:00:40,045+07:00]  INFO 15174 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T16:00:40,449+07:00]  INFO 15174 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T16:00:40,652+07:00]  INFO 15174 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T16:00:40,664+07:00]  INFO 15174 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@294aba23
+[2018-10-30T16:00:41,223+07:00]  INFO 15174 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T16:00:41,860+07:00]  INFO 15174 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T16:00:41,869+07:00]  WARN 15174 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T16:00:41,872+07:00]  INFO 15174 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T16:00:41,876+07:00]  INFO 15174 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T16:00:41,877+07:00]  INFO 15174 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T16:00:41,878+07:00]  INFO 15174 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T16:00:45,492+07:00]  INFO 15174 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T16:00:45,543+07:00]  INFO 15174 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T16:00:45,560+07:00]  INFO 15174 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T16:00:45,900+07:00]  INFO 15174 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T16:00:45,924+07:00]  INFO 15174 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T16:00:45,982+07:00]  INFO 15174 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T16:00:46,046+07:00]  INFO 15174 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 14.523 seconds (JVM running for 15.641)
+[2018-10-30T16:00:53,312+07:00]  INFO 15174 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T16:02:07,321+07:00]  INFO 15174 --- [http-nio-8084-exec-5] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+[2018-10-30T16:06:46,679+07:00]  INFO 15280 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 15280 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T16:06:46,704+07:00]  INFO 15280 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T16:06:47,825+07:00]  INFO 15280 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T16:06:54,170+07:00]  INFO 15280 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T16:06:54,175+07:00]  INFO 15280 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T16:06:54,418+07:00]  INFO 15280 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T16:06:55,471+07:00]  INFO 15280 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T16:06:55,720+07:00]  INFO 15280 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T16:06:55,725+07:00]  INFO 15280 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T16:06:55,729+07:00]  INFO 15280 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T16:06:55,835+07:00]  INFO 15280 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T16:06:56,470+07:00]  INFO 15280 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T16:06:56,830+07:00]  INFO 15280 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T16:06:56,835+07:00]  INFO 15280 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@734a149a
+[2018-10-30T16:06:57,694+07:00]  INFO 15280 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T16:06:58,826+07:00]  INFO 15280 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T16:06:58,848+07:00]  WARN 15280 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T16:06:58,854+07:00]  INFO 15280 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T16:06:58,859+07:00]  INFO 15280 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T16:06:58,876+07:00]  INFO 15280 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T16:06:58,880+07:00]  INFO 15280 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T16:07:05,088+07:00]  INFO 15280 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T16:07:05,230+07:00]  INFO 15280 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T16:07:05,257+07:00]  INFO 15280 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T16:07:05,960+07:00]  INFO 15280 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T16:07:06,000+07:00]  INFO 15280 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T16:07:06,065+07:00]  INFO 15280 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T16:07:06,137+07:00]  INFO 15280 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 21.942 seconds (JVM running for 23.541)
+[2018-10-30T16:07:11,707+07:00]  INFO 15280 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T16:07:22,790+07:00]  INFO 15280 --- [http-nio-8084-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+[2018-10-30T16:59:40,039+07:00]  INFO 16112 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 16112 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T16:59:40,051+07:00]  INFO 16112 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T16:59:41,905+07:00]  INFO 16112 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T16:59:47,285+07:00]  INFO 16112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T16:59:47,290+07:00]  INFO 16112 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T16:59:47,602+07:00]  INFO 16112 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T16:59:48,581+07:00]  INFO 16112 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T16:59:48,776+07:00]  INFO 16112 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T16:59:48,780+07:00]  INFO 16112 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T16:59:48,782+07:00]  INFO 16112 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T16:59:48,916+07:00]  INFO 16112 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T16:59:49,583+07:00]  INFO 16112 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T16:59:49,856+07:00]  INFO 16112 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T16:59:49,860+07:00]  INFO 16112 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@781711b7
+[2018-10-30T16:59:50,549+07:00]  INFO 16112 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T16:59:52,237+07:00]  INFO 16112 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T16:59:52,261+07:00]  WARN 16112 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T16:59:52,269+07:00]  INFO 16112 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T16:59:52,276+07:00]  INFO 16112 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T16:59:52,278+07:00]  INFO 16112 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T16:59:52,283+07:00]  INFO 16112 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T16:59:57,100+07:00]  INFO 16112 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T16:59:57,165+07:00]  INFO 16112 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T16:59:57,189+07:00]  INFO 16112 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T16:59:57,582+07:00]  INFO 16112 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T16:59:57,614+07:00]  INFO 16112 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T16:59:57,681+07:00]  INFO 16112 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T16:59:57,738+07:00]  INFO 16112 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 20.12 seconds (JVM running for 21.721)
+[2018-10-30T17:00:19,206+07:00]  INFO 16112 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T17:00:19,429+07:00]  INFO 16112 --- [http-nio-8084-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+[2018-10-30T18:32:12,154+07:00]  INFO 17068 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 17068 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T18:32:12,179+07:00]  INFO 17068 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T18:32:13,481+07:00]  INFO 17068 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T18:32:19,046+07:00]  INFO 17068 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T18:32:19,048+07:00]  INFO 17068 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T18:32:19,289+07:00]  INFO 17068 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T18:32:20,111+07:00]  INFO 17068 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T18:32:20,265+07:00]  INFO 17068 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T18:32:20,270+07:00]  INFO 17068 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T18:32:20,273+07:00]  INFO 17068 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T18:32:20,381+07:00]  INFO 17068 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T18:32:21,007+07:00]  INFO 17068 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T18:32:21,248+07:00]  INFO 17068 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T18:32:21,252+07:00]  INFO 17068 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@642ee49c
+[2018-10-30T18:32:21,857+07:00]  INFO 17068 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T18:32:22,538+07:00]  INFO 17068 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T18:32:22,552+07:00]  WARN 17068 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T18:32:22,555+07:00]  INFO 17068 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T18:32:22,562+07:00]  INFO 17068 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T18:32:22,574+07:00]  INFO 17068 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T18:32:22,576+07:00]  INFO 17068 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T18:32:26,751+07:00]  INFO 17068 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T18:32:26,815+07:00]  INFO 17068 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T18:32:26,849+07:00]  INFO 17068 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T18:32:27,288+07:00]  INFO 17068 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T18:32:27,320+07:00]  INFO 17068 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T18:32:27,388+07:00]  INFO 17068 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T18:32:27,446+07:00]  INFO 17068 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 17.308 seconds (JVM running for 18.424)
+[2018-10-30T18:32:50,717+07:00]  INFO 17068 --- [http-nio-8084-exec-2] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T18:32:54,334+07:00]  INFO 17068 --- [http-nio-8084-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+[2018-10-30T19:08:45,677+07:00]  INFO 17984 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 17984 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-30T19:08:45,682+07:00]  INFO 17984 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-30T19:08:46,862+07:00]  INFO 17984 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-10-30T19:08:52,266+07:00]  INFO 17984 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-10-30T19:08:52,273+07:00]  INFO 17984 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+[2018-10-30T19:08:52,495+07:00]  INFO 17984 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-30T19:08:53,413+07:00]  INFO 17984 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-10-30T19:08:53,585+07:00]  INFO 17984 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+[2018-10-30T19:08:53,589+07:00]  INFO 17984 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[2018-10-30T19:08:53,592+07:00]  INFO 17984 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+[2018-10-30T19:08:53,690+07:00]  INFO 17984 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-10-30T19:08:54,235+07:00]  INFO 17984 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2018-10-30T19:08:54,481+07:00]  INFO 17984 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2018-10-30T19:08:54,485+07:00]  INFO 17984 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@78ec89a6
+[2018-10-30T19:08:55,045+07:00]  INFO 17984 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+[2018-10-30T19:08:55,845+07:00]  INFO 17984 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-10-30T19:08:55,854+07:00]  WARN 17984 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-10-30T19:08:55,857+07:00]  INFO 17984 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-10-30T19:08:55,862+07:00]  INFO 17984 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-10-30T19:08:55,863+07:00]  INFO 17984 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-10-30T19:08:55,864+07:00]  INFO 17984 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-10-30T19:08:59,993+07:00]  INFO 17984 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-30T19:09:00,052+07:00]  INFO 17984 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-30T19:09:00,078+07:00]  INFO 17984 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-30T19:09:00,531+07:00]  INFO 17984 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-30T19:09:00,569+07:00]  INFO 17984 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-30T19:09:00,622+07:00]  INFO 17984 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-30T19:09:00,702+07:00]  INFO 17984 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 16.853 seconds (JVM running for 18.166)
+[2018-10-30T19:09:07,007+07:00]  INFO 17984 --- [http-nio-8084-exec-2] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-30T19:09:07,211+07:00]  INFO 17984 --- [http-nio-8084-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory

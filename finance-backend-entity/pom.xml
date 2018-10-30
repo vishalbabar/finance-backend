@@ -36,6 +36,10 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+            <groupId>com.coviam.finance</groupId>
+            <artifactId>finance-backend-master-model</artifactId>
+        </dependency>
     </dependencies>
 
 

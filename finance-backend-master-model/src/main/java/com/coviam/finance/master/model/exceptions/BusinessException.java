@@ -2,6 +2,10 @@ package com.coviam.finance.master.model.exceptions;
 
 import com.coviam.finance.master.model.enums.Error;
 
+/**
+ * Created by Vishal B on Oct, 2018
+ */
+
 public class BusinessException extends RuntimeException {
 
   private final Error error;

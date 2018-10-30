@@ -13,15 +13,30 @@
     <dependencies>
         <dependency>
             <groupId>com.coviam.finance</groupId>
-            <artifactId>finance-service-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.coviam.finance</groupId>
             <artifactId>finance-backend-repository</artifactId>
         </dependency>
         <dependency>
             <groupId>com.coviam.finance</groupId>
             <artifactId>finance-backend-master-model</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.coviam.finance</groupId>
+            <artifactId>finance-backend-service-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>1.5.2.RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.coviam.finance</groupId>
+            <artifactId>finance-backend-repository</artifactId>
+            <version>${project.version}</version>
+            <type>test-jar</type>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

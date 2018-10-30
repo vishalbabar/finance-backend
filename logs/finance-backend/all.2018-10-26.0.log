@@ -1,0 +1,946 @@
+[2018-10-26T13:17:22,011+07:00]  INFO 42656 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 42656 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T13:17:22,016+07:00]  INFO 42656 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T13:17:22,977+07:00]  INFO 42656 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T13:17:25,231+07:00]  INFO 42656 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T13:17:25,233+07:00]  INFO 42656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T13:17:25,399+07:00]  INFO 42656 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T13:17:27,481+07:00]  INFO 42656 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T13:17:27,498+07:00]  INFO 42656 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T13:17:27,539+07:00]  INFO 42656 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T13:17:27,575+07:00]  INFO 42656 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 6.961 seconds (JVM running for 7.747)
+[2018-10-26T13:30:33,330+07:00]  INFO 43142 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 43142 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T13:30:33,337+07:00]  INFO 43142 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T13:30:34,699+07:00]  INFO 43142 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T13:30:36,693+07:00]  INFO 43142 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T13:30:36,694+07:00]  INFO 43142 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T13:30:36,906+07:00]  INFO 43142 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T13:30:39,455+07:00]  INFO 43142 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T13:30:39,476+07:00]  INFO 43142 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T13:30:39,523+07:00]  INFO 43142 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T13:30:39,563+07:00]  INFO 43142 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 7.896 seconds (JVM running for 8.964)
+[2018-10-26T14:05:08,349+07:00]  INFO 43954 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 43954 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:05:08,354+07:00]  INFO 43954 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:05:09,531+07:00]  INFO 43954 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:05:11,684+07:00]  INFO 43954 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:05:11,687+07:00]  INFO 43954 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:05:11,867+07:00]  INFO 43954 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:05:14,021+07:00]  INFO 43954 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:05:14,040+07:00]  INFO 43954 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:05:14,085+07:00]  INFO 43954 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:05:14,126+07:00]  INFO 43954 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 6.804 seconds (JVM running for 7.671)
+[2018-10-26T14:05:20,179+07:00]  INFO 43954 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:06:36,861+07:00]  INFO 44001 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44001 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:06:36,882+07:00]  INFO 44001 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:06:38,179+07:00]  INFO 44001 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:06:40,651+07:00]  INFO 44001 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:06:40,654+07:00]  INFO 44001 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:06:40,833+07:00]  INFO 44001 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:06:42,933+07:00]  INFO 44001 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:06:43,748+07:00]  INFO 44001 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:06:43,794+07:00]  INFO 44001 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:06:43,892+07:00]  INFO 44001 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:06:44,025+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPrincipalAndAfterAndTypeUsingGET_1
+[2018-10-26T14:06:44,414+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_1
+[2018-10-26T14:06:44,417+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_2
+[2018-10-26T14:06:44,420+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_3
+[2018-10-26T14:06:44,422+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_4
+[2018-10-26T14:06:44,425+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_5
+[2018-10-26T14:06:44,428+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_6
+[2018-10-26T14:06:44,430+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_7
+[2018-10-26T14:06:44,440+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_8
+[2018-10-26T14:06:44,445+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_9
+[2018-10-26T14:06:44,451+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_10
+[2018-10-26T14:06:44,455+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_11
+[2018-10-26T14:06:44,462+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_12
+[2018-10-26T14:06:44,466+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_13
+[2018-10-26T14:06:44,473+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_14
+[2018-10-26T14:06:44,475+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_15
+[2018-10-26T14:06:44,663+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_16
+[2018-10-26T14:06:44,668+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_17
+[2018-10-26T14:06:44,679+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_18
+[2018-10-26T14:06:44,685+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_19
+[2018-10-26T14:06:44,693+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_20
+[2018-10-26T14:06:44,699+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_21
+[2018-10-26T14:06:44,706+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingHEAD_1
+[2018-10-26T14:06:44,715+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_22
+[2018-10-26T14:06:44,719+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_23
+[2018-10-26T14:06:44,729+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_24
+[2018-10-26T14:06:44,733+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_25
+[2018-10-26T14:06:44,739+07:00]  INFO 44001 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: valueUsingGET_1
+[2018-10-26T14:06:44,795+07:00]  INFO 44001 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:06:44,810+07:00]  INFO 44001 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:06:44,854+07:00]  INFO 44001 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:06:44,892+07:00]  INFO 44001 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 9.066 seconds (JVM running for 9.833)
+[2018-10-26T14:07:07,365+07:00]  INFO 44001 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:09:25,923+07:00]  INFO 44081 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44081 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:09:25,929+07:00]  INFO 44081 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:09:27,088+07:00]  INFO 44081 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:09:29,739+07:00]  INFO 44081 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:09:29,740+07:00]  INFO 44081 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:09:29,913+07:00]  INFO 44081 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:09:31,934+07:00]  INFO 44081 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:09:32,776+07:00]  INFO 44081 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:09:32,826+07:00]  INFO 44081 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:09:32,897+07:00]  INFO 44081 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:09:33,035+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPrincipalAndAfterAndTypeUsingGET_1
+[2018-10-26T14:09:33,409+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_1
+[2018-10-26T14:09:33,412+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_2
+[2018-10-26T14:09:33,415+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_3
+[2018-10-26T14:09:33,418+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_4
+[2018-10-26T14:09:33,420+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_5
+[2018-10-26T14:09:33,423+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_6
+[2018-10-26T14:09:33,425+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_7
+[2018-10-26T14:09:33,428+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_8
+[2018-10-26T14:09:33,430+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_9
+[2018-10-26T14:09:33,434+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_10
+[2018-10-26T14:09:33,436+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_11
+[2018-10-26T14:09:33,440+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_12
+[2018-10-26T14:09:33,442+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_13
+[2018-10-26T14:09:33,446+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_14
+[2018-10-26T14:09:33,449+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_15
+[2018-10-26T14:09:33,476+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_16
+[2018-10-26T14:09:33,480+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_17
+[2018-10-26T14:09:33,487+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_18
+[2018-10-26T14:09:33,490+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_19
+[2018-10-26T14:09:33,495+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_20
+[2018-10-26T14:09:33,499+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_21
+[2018-10-26T14:09:33,502+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingHEAD_1
+[2018-10-26T14:09:33,508+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_22
+[2018-10-26T14:09:33,511+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_23
+[2018-10-26T14:09:33,520+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_24
+[2018-10-26T14:09:33,522+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_25
+[2018-10-26T14:09:33,526+07:00]  INFO 44081 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: valueUsingGET_1
+[2018-10-26T14:09:33,581+07:00]  INFO 44081 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:09:33,597+07:00]  INFO 44081 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:09:33,643+07:00]  INFO 44081 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:09:33,686+07:00]  INFO 44081 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 8.775 seconds (JVM running for 9.556)
+[2018-10-26T14:09:37,893+07:00]  INFO 44081 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:11:05,374+07:00]  INFO 44125 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44125 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:11:05,379+07:00]  INFO 44125 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:11:06,479+07:00]  INFO 44125 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:11:08,846+07:00]  INFO 44125 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:11:08,848+07:00]  INFO 44125 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:11:09,021+07:00]  INFO 44125 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:11:11,047+07:00]  INFO 44125 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:11:11,785+07:00]  INFO 44125 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:11:11,830+07:00]  INFO 44125 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:11:11,888+07:00]  INFO 44125 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:11:12,009+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPrincipalAndAfterAndTypeUsingGET_1
+[2018-10-26T14:11:12,400+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_1
+[2018-10-26T14:11:12,403+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_2
+[2018-10-26T14:11:12,406+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_3
+[2018-10-26T14:11:12,410+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_4
+[2018-10-26T14:11:12,412+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_5
+[2018-10-26T14:11:12,415+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_6
+[2018-10-26T14:11:12,419+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_7
+[2018-10-26T14:11:12,425+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_8
+[2018-10-26T14:11:12,428+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_9
+[2018-10-26T14:11:12,431+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_10
+[2018-10-26T14:11:12,433+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_11
+[2018-10-26T14:11:12,436+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_12
+[2018-10-26T14:11:12,438+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_13
+[2018-10-26T14:11:12,442+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_14
+[2018-10-26T14:11:12,445+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_15
+[2018-10-26T14:11:12,470+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_16
+[2018-10-26T14:11:12,474+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_17
+[2018-10-26T14:11:12,481+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_18
+[2018-10-26T14:11:12,484+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_19
+[2018-10-26T14:11:12,489+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_20
+[2018-10-26T14:11:12,493+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_21
+[2018-10-26T14:11:12,496+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingHEAD_1
+[2018-10-26T14:11:12,503+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_22
+[2018-10-26T14:11:12,505+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_23
+[2018-10-26T14:11:12,512+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_24
+[2018-10-26T14:11:12,515+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_25
+[2018-10-26T14:11:12,519+07:00]  INFO 44125 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: valueUsingGET_1
+[2018-10-26T14:11:12,574+07:00]  INFO 44125 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:11:12,595+07:00]  INFO 44125 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:11:12,644+07:00]  INFO 44125 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:11:12,685+07:00]  INFO 44125 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 8.409 seconds (JVM running for 9.455)
+[2018-10-26T14:11:17,199+07:00]  INFO 44125 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:11:47,514+07:00]  INFO 44144 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44144 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:11:47,520+07:00]  INFO 44144 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:11:48,813+07:00]  INFO 44144 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:11:51,378+07:00]  INFO 44144 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:11:51,380+07:00]  INFO 44144 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:11:51,572+07:00]  INFO 44144 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:11:53,606+07:00]  INFO 44144 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:11:54,369+07:00]  INFO 44144 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:11:54,411+07:00]  INFO 44144 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:11:54,474+07:00]  INFO 44144 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:11:54,617+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPrincipalAndAfterAndTypeUsingGET_1
+[2018-10-26T14:11:54,962+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_1
+[2018-10-26T14:11:54,965+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_2
+[2018-10-26T14:11:54,968+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_3
+[2018-10-26T14:11:54,971+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_4
+[2018-10-26T14:11:54,973+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_5
+[2018-10-26T14:11:54,976+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_6
+[2018-10-26T14:11:54,978+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_7
+[2018-10-26T14:11:54,981+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_8
+[2018-10-26T14:11:54,983+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_9
+[2018-10-26T14:11:54,986+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_10
+[2018-10-26T14:11:54,988+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_11
+[2018-10-26T14:11:54,991+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_12
+[2018-10-26T14:11:54,994+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_13
+[2018-10-26T14:11:54,999+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_14
+[2018-10-26T14:11:55,001+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_15
+[2018-10-26T14:11:55,032+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_16
+[2018-10-26T14:11:55,035+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_17
+[2018-10-26T14:11:55,044+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_18
+[2018-10-26T14:11:55,047+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_19
+[2018-10-26T14:11:55,053+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_20
+[2018-10-26T14:11:55,059+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_21
+[2018-10-26T14:11:55,061+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingHEAD_1
+[2018-10-26T14:11:55,069+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_22
+[2018-10-26T14:11:55,072+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_23
+[2018-10-26T14:11:55,080+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_24
+[2018-10-26T14:11:55,082+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_25
+[2018-10-26T14:11:55,087+07:00]  INFO 44144 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: valueUsingGET_1
+[2018-10-26T14:11:55,146+07:00]  INFO 44144 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:11:55,164+07:00]  INFO 44144 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:11:55,221+07:00]  INFO 44144 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:11:55,282+07:00]  INFO 44144 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 9.268 seconds (JVM running for 10.408)
+[2018-10-26T14:11:56,776+07:00]  INFO 44144 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:12:30,440+07:00]  INFO 44168 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44168 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:12:30,445+07:00]  INFO 44168 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:12:31,372+07:00]  INFO 44168 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:12:33,909+07:00]  INFO 44168 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:12:33,911+07:00]  INFO 44168 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:12:34,094+07:00]  INFO 44168 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:12:36,191+07:00]  INFO 44168 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:12:36,942+07:00]  INFO 44168 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:12:36,991+07:00]  INFO 44168 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:12:37,058+07:00]  INFO 44168 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:12:37,170+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPrincipalAndAfterAndTypeUsingGET_1
+[2018-10-26T14:12:37,553+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_1
+[2018-10-26T14:12:37,557+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_2
+[2018-10-26T14:12:37,559+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_3
+[2018-10-26T14:12:37,563+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_4
+[2018-10-26T14:12:37,565+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_5
+[2018-10-26T14:12:37,568+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_6
+[2018-10-26T14:12:37,570+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_7
+[2018-10-26T14:12:37,573+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_8
+[2018-10-26T14:12:37,575+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_9
+[2018-10-26T14:12:37,579+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_10
+[2018-10-26T14:12:37,582+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_11
+[2018-10-26T14:12:37,584+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_12
+[2018-10-26T14:12:37,586+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_13
+[2018-10-26T14:12:37,590+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_14
+[2018-10-26T14:12:37,592+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_15
+[2018-10-26T14:12:37,618+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_16
+[2018-10-26T14:12:37,621+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_17
+[2018-10-26T14:12:37,629+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_18
+[2018-10-26T14:12:37,633+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_19
+[2018-10-26T14:12:37,639+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_20
+[2018-10-26T14:12:37,644+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_21
+[2018-10-26T14:12:37,647+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingHEAD_1
+[2018-10-26T14:12:37,654+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_22
+[2018-10-26T14:12:37,656+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_23
+[2018-10-26T14:12:37,664+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_24
+[2018-10-26T14:12:37,666+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_25
+[2018-10-26T14:12:37,671+07:00]  INFO 44168 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: valueUsingGET_1
+[2018-10-26T14:12:37,727+07:00]  INFO 44168 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:12:37,742+07:00]  INFO 44168 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:12:37,794+07:00]  INFO 44168 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:12:37,844+07:00]  INFO 44168 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 8.871 seconds (JVM running for 9.856)
+[2018-10-26T14:12:40,448+07:00]  INFO 44168 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:13:03,733+07:00]  INFO 44184 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44184 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:13:03,747+07:00]  INFO 44184 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:13:04,855+07:00]  INFO 44184 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:13:07,378+07:00]  INFO 44184 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:13:07,380+07:00]  INFO 44184 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:13:07,563+07:00]  INFO 44184 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:13:09,602+07:00]  INFO 44184 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:13:10,344+07:00]  INFO 44184 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:13:10,390+07:00]  INFO 44184 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:13:10,447+07:00]  INFO 44184 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:13:10,563+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPrincipalAndAfterAndTypeUsingGET_1
+[2018-10-26T14:13:10,936+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_1
+[2018-10-26T14:13:10,939+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_2
+[2018-10-26T14:13:10,942+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_3
+[2018-10-26T14:13:10,946+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_4
+[2018-10-26T14:13:10,948+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_5
+[2018-10-26T14:13:10,952+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_6
+[2018-10-26T14:13:10,956+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_7
+[2018-10-26T14:13:10,959+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_8
+[2018-10-26T14:13:10,962+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_9
+[2018-10-26T14:13:10,965+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_10
+[2018-10-26T14:13:10,969+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_11
+[2018-10-26T14:13:10,972+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_12
+[2018-10-26T14:13:10,975+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_13
+[2018-10-26T14:13:10,979+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_14
+[2018-10-26T14:13:10,981+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_15
+[2018-10-26T14:13:11,029+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_16
+[2018-10-26T14:13:11,034+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_17
+[2018-10-26T14:13:11,045+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_18
+[2018-10-26T14:13:11,049+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_19
+[2018-10-26T14:13:11,055+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_20
+[2018-10-26T14:13:11,061+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_21
+[2018-10-26T14:13:11,065+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingHEAD_1
+[2018-10-26T14:13:11,073+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_22
+[2018-10-26T14:13:11,075+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_23
+[2018-10-26T14:13:11,085+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_24
+[2018-10-26T14:13:11,088+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_25
+[2018-10-26T14:13:11,093+07:00]  INFO 44184 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: valueUsingGET_1
+[2018-10-26T14:13:11,153+07:00]  INFO 44184 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:13:11,170+07:00]  INFO 44184 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:13:11,221+07:00]  INFO 44184 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:13:11,284+07:00]  INFO 44184 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 8.714 seconds (JVM running for 9.785)
+[2018-10-26T14:13:13,649+07:00]  INFO 44184 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:18:12,058+07:00]  INFO 44337 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44337 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:18:12,064+07:00]  INFO 44337 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:18:13,241+07:00]  INFO 44337 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:18:16,048+07:00]  INFO 44337 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:18:16,050+07:00]  INFO 44337 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:18:16,234+07:00]  INFO 44337 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:18:18,207+07:00]  INFO 44337 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:18:19,107+07:00]  INFO 44337 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:18:19,163+07:00]  INFO 44337 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:18:19,226+07:00]  INFO 44337 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:18:19,360+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPrincipalAndAfterAndTypeUsingGET_1
+[2018-10-26T14:18:19,690+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_1
+[2018-10-26T14:18:19,693+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_2
+[2018-10-26T14:18:19,695+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_3
+[2018-10-26T14:18:19,698+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_4
+[2018-10-26T14:18:19,700+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_5
+[2018-10-26T14:18:19,704+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_6
+[2018-10-26T14:18:19,706+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_7
+[2018-10-26T14:18:19,708+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_8
+[2018-10-26T14:18:19,712+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_9
+[2018-10-26T14:18:19,715+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_10
+[2018-10-26T14:18:19,717+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_11
+[2018-10-26T14:18:19,720+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_12
+[2018-10-26T14:18:19,722+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_13
+[2018-10-26T14:18:19,726+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_14
+[2018-10-26T14:18:19,728+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_15
+[2018-10-26T14:18:19,755+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_16
+[2018-10-26T14:18:19,758+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_17
+[2018-10-26T14:18:19,769+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_18
+[2018-10-26T14:18:19,773+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_19
+[2018-10-26T14:18:19,778+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_20
+[2018-10-26T14:18:19,785+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_21
+[2018-10-26T14:18:19,788+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingHEAD_1
+[2018-10-26T14:18:19,795+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_22
+[2018-10-26T14:18:19,798+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_23
+[2018-10-26T14:18:19,806+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_24
+[2018-10-26T14:18:19,809+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_25
+[2018-10-26T14:18:19,812+07:00]  INFO 44337 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: valueUsingGET_1
+[2018-10-26T14:18:19,865+07:00]  INFO 44337 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:18:19,882+07:00]  INFO 44337 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:18:19,945+07:00]  INFO 44337 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:18:20,008+07:00]  INFO 44337 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 9.659 seconds (JVM running for 10.496)
+[2018-10-26T14:18:29,888+07:00]  INFO 44337 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:19:25,171+07:00]  INFO 44372 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44372 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:19:25,177+07:00]  INFO 44372 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:19:26,304+07:00]  INFO 44372 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:19:28,787+07:00]  INFO 44372 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:19:28,789+07:00]  INFO 44372 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:19:28,965+07:00]  INFO 44372 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:19:31,182+07:00]  INFO 44372 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:19:31,968+07:00]  INFO 44372 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:19:32,036+07:00]  INFO 44372 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:19:32,101+07:00]  INFO 44372 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:19:32,221+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPrincipalAndAfterAndTypeUsingGET_1
+[2018-10-26T14:19:32,594+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_1
+[2018-10-26T14:19:32,597+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_2
+[2018-10-26T14:19:32,599+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_3
+[2018-10-26T14:19:32,603+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_4
+[2018-10-26T14:19:32,607+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_5
+[2018-10-26T14:19:32,610+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_6
+[2018-10-26T14:19:32,612+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_7
+[2018-10-26T14:19:32,617+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_8
+[2018-10-26T14:19:32,624+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_9
+[2018-10-26T14:19:32,629+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_10
+[2018-10-26T14:19:32,631+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_11
+[2018-10-26T14:19:32,635+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_12
+[2018-10-26T14:19:32,637+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_13
+[2018-10-26T14:19:32,642+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_14
+[2018-10-26T14:19:32,644+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_15
+[2018-10-26T14:19:32,670+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_16
+[2018-10-26T14:19:32,673+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_17
+[2018-10-26T14:19:32,679+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_18
+[2018-10-26T14:19:32,683+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_19
+[2018-10-26T14:19:32,687+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_20
+[2018-10-26T14:19:32,692+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_21
+[2018-10-26T14:19:32,694+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingHEAD_1
+[2018-10-26T14:19:32,701+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_22
+[2018-10-26T14:19:32,703+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_23
+[2018-10-26T14:19:32,712+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_24
+[2018-10-26T14:19:32,713+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_25
+[2018-10-26T14:19:32,719+07:00]  INFO 44372 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: valueUsingGET_1
+[2018-10-26T14:19:32,778+07:00]  INFO 44372 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:19:32,792+07:00]  INFO 44372 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:19:32,843+07:00]  INFO 44372 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:19:32,879+07:00]  INFO 44372 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 8.76 seconds (JVM running for 9.795)
+[2018-10-26T14:19:36,699+07:00]  INFO 44372 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:19:48,676+07:00]  INFO 44383 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44383 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:19:48,682+07:00]  INFO 44383 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:19:49,822+07:00]  INFO 44383 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:19:52,458+07:00]  INFO 44383 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:19:52,460+07:00]  INFO 44383 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:19:52,648+07:00]  INFO 44383 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:19:54,592+07:00]  INFO 44383 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:19:55,521+07:00]  INFO 44383 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:19:55,577+07:00]  INFO 44383 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:19:55,649+07:00]  INFO 44383 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:19:55,793+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPrincipalAndAfterAndTypeUsingGET_1
+[2018-10-26T14:19:56,149+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_1
+[2018-10-26T14:19:56,155+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_2
+[2018-10-26T14:19:56,161+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_3
+[2018-10-26T14:19:56,164+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_4
+[2018-10-26T14:19:56,167+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_5
+[2018-10-26T14:19:56,171+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_6
+[2018-10-26T14:19:56,174+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_7
+[2018-10-26T14:19:56,178+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_8
+[2018-10-26T14:19:56,180+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_9
+[2018-10-26T14:19:56,184+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_10
+[2018-10-26T14:19:56,186+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_11
+[2018-10-26T14:19:56,189+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_12
+[2018-10-26T14:19:56,191+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_13
+[2018-10-26T14:19:56,195+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_14
+[2018-10-26T14:19:56,198+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_15
+[2018-10-26T14:19:56,226+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_16
+[2018-10-26T14:19:56,230+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_17
+[2018-10-26T14:19:56,241+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_18
+[2018-10-26T14:19:56,245+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_19
+[2018-10-26T14:19:56,254+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_20
+[2018-10-26T14:19:56,261+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_21
+[2018-10-26T14:19:56,263+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingHEAD_1
+[2018-10-26T14:19:56,271+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_22
+[2018-10-26T14:19:56,274+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_23
+[2018-10-26T14:19:56,282+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_24
+[2018-10-26T14:19:56,285+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_25
+[2018-10-26T14:19:56,289+07:00]  INFO 44383 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: valueUsingGET_1
+[2018-10-26T14:19:56,345+07:00]  INFO 44383 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:19:56,363+07:00]  INFO 44383 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:19:56,411+07:00]  INFO 44383 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:19:56,460+07:00]  INFO 44383 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 8.844 seconds (JVM running for 9.919)
+[2018-10-26T14:19:58,186+07:00]  INFO 44383 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:21:53,321+07:00]  INFO 44441 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44441 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:21:53,327+07:00]  INFO 44441 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:21:54,231+07:00]  INFO 44441 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:21:56,530+07:00]  INFO 44441 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:21:56,533+07:00]  INFO 44441 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:21:56,725+07:00]  INFO 44441 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:21:58,940+07:00]  INFO 44441 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:21:58,958+07:00]  INFO 44441 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:21:59,007+07:00]  INFO 44441 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:21:59,045+07:00]  INFO 44441 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 6.897 seconds (JVM running for 7.706)
+[2018-10-26T14:22:01,547+07:00]  INFO 44441 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:22:24,981+07:00]  INFO 44460 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44460 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:22:24,989+07:00]  INFO 44460 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:22:26,144+07:00]  INFO 44460 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:22:28,756+07:00]  INFO 44460 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:22:28,758+07:00]  INFO 44460 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:22:28,935+07:00]  INFO 44460 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:22:31,056+07:00]  INFO 44460 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:22:31,855+07:00]  INFO 44460 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:22:31,915+07:00]  INFO 44460 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:22:31,994+07:00]  INFO 44460 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:22:32,121+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPrincipalAndAfterAndTypeUsingGET_1
+[2018-10-26T14:22:32,485+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_1
+[2018-10-26T14:22:32,488+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_2
+[2018-10-26T14:22:32,492+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_3
+[2018-10-26T14:22:32,496+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_4
+[2018-10-26T14:22:32,499+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_5
+[2018-10-26T14:22:32,502+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_6
+[2018-10-26T14:22:32,505+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_7
+[2018-10-26T14:22:32,508+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_8
+[2018-10-26T14:22:32,511+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_9
+[2018-10-26T14:22:32,518+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_10
+[2018-10-26T14:22:32,520+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_11
+[2018-10-26T14:22:32,523+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_12
+[2018-10-26T14:22:32,526+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_13
+[2018-10-26T14:22:32,530+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_14
+[2018-10-26T14:22:32,533+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_15
+[2018-10-26T14:22:32,565+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_16
+[2018-10-26T14:22:32,569+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_17
+[2018-10-26T14:22:32,578+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_18
+[2018-10-26T14:22:32,582+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_19
+[2018-10-26T14:22:32,588+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_20
+[2018-10-26T14:22:32,597+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_21
+[2018-10-26T14:22:32,601+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingHEAD_1
+[2018-10-26T14:22:32,608+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_22
+[2018-10-26T14:22:32,611+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_23
+[2018-10-26T14:22:32,626+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_24
+[2018-10-26T14:22:32,628+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_25
+[2018-10-26T14:22:32,634+07:00]  INFO 44460 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: valueUsingGET_1
+[2018-10-26T14:22:32,691+07:00]  INFO 44460 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:22:32,716+07:00]  INFO 44460 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:22:32,777+07:00]  INFO 44460 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:22:32,823+07:00]  INFO 44460 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 8.838 seconds (JVM running for 9.586)
+[2018-10-26T14:22:37,726+07:00]  INFO 44460 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:23:05,611+07:00]  INFO 44477 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44477 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:23:05,619+07:00]  INFO 44477 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:23:06,934+07:00]  INFO 44477 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:23:10,753+07:00]  INFO 44477 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:23:10,756+07:00]  INFO 44477 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:23:10,953+07:00]  INFO 44477 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:23:14,647+07:00]  INFO 44477 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:23:15,468+07:00]  INFO 44477 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:23:15,518+07:00]  INFO 44477 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:23:15,577+07:00]  INFO 44477 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:23:15,701+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPrincipalAndAfterAndTypeUsingGET_1
+[2018-10-26T14:23:16,057+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_1
+[2018-10-26T14:23:16,060+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_2
+[2018-10-26T14:23:16,063+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_3
+[2018-10-26T14:23:16,065+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_4
+[2018-10-26T14:23:16,067+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_5
+[2018-10-26T14:23:16,071+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_6
+[2018-10-26T14:23:16,073+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_7
+[2018-10-26T14:23:16,076+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_8
+[2018-10-26T14:23:16,080+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_9
+[2018-10-26T14:23:16,083+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_10
+[2018-10-26T14:23:16,085+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_11
+[2018-10-26T14:23:16,087+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_12
+[2018-10-26T14:23:16,090+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_13
+[2018-10-26T14:23:16,094+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_14
+[2018-10-26T14:23:16,098+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_15
+[2018-10-26T14:23:16,132+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_16
+[2018-10-26T14:23:16,135+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_17
+[2018-10-26T14:23:16,144+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_18
+[2018-10-26T14:23:16,148+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_19
+[2018-10-26T14:23:16,154+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_20
+[2018-10-26T14:23:16,158+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_21
+[2018-10-26T14:23:16,161+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingHEAD_1
+[2018-10-26T14:23:16,168+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_22
+[2018-10-26T14:23:16,171+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_23
+[2018-10-26T14:23:16,181+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_24
+[2018-10-26T14:23:16,184+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_25
+[2018-10-26T14:23:16,188+07:00]  INFO 44477 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: valueUsingGET_1
+[2018-10-26T14:23:16,240+07:00]  INFO 44477 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:23:16,260+07:00]  INFO 44477 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:23:16,321+07:00]  INFO 44477 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:23:16,375+07:00]  INFO 44477 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 12.646 seconds (JVM running for 13.698)
+[2018-10-26T14:23:18,091+07:00]  INFO 44477 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:25:05,237+07:00]  INFO 44537 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44537 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:25:05,242+07:00]  INFO 44537 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:25:06,318+07:00]  INFO 44537 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:25:09,048+07:00]  INFO 44537 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:25:09,050+07:00]  INFO 44537 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:25:09,252+07:00]  INFO 44537 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:25:11,330+07:00]  INFO 44537 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:25:12,136+07:00]  INFO 44537 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:25:12,191+07:00]  INFO 44537 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:25:12,254+07:00]  INFO 44537 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:25:12,392+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPrincipalAndAfterAndTypeUsingGET_1
+[2018-10-26T14:25:12,766+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_1
+[2018-10-26T14:25:12,770+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_2
+[2018-10-26T14:25:12,772+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_3
+[2018-10-26T14:25:12,776+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_4
+[2018-10-26T14:25:12,778+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_5
+[2018-10-26T14:25:12,782+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_6
+[2018-10-26T14:25:12,785+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_7
+[2018-10-26T14:25:12,788+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_8
+[2018-10-26T14:25:12,791+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_9
+[2018-10-26T14:25:12,797+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_10
+[2018-10-26T14:25:12,800+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_11
+[2018-10-26T14:25:12,803+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_12
+[2018-10-26T14:25:12,805+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_13
+[2018-10-26T14:25:12,809+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_14
+[2018-10-26T14:25:12,812+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_15
+[2018-10-26T14:25:12,840+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_16
+[2018-10-26T14:25:12,843+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_17
+[2018-10-26T14:25:12,850+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_18
+[2018-10-26T14:25:12,855+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_19
+[2018-10-26T14:25:12,859+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_20
+[2018-10-26T14:25:12,865+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_21
+[2018-10-26T14:25:12,868+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingHEAD_1
+[2018-10-26T14:25:12,874+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_22
+[2018-10-26T14:25:12,877+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_23
+[2018-10-26T14:25:12,885+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_24
+[2018-10-26T14:25:12,887+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_25
+[2018-10-26T14:25:12,891+07:00]  INFO 44537 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: valueUsingGET_1
+[2018-10-26T14:25:12,949+07:00]  INFO 44537 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:25:12,965+07:00]  INFO 44537 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:25:13,015+07:00]  INFO 44537 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:25:13,069+07:00]  INFO 44537 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 9.068 seconds (JVM running for 9.87)
+[2018-10-26T14:25:15,656+07:00]  INFO 44537 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:25:39,696+07:00]  INFO 44556 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44556 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:25:39,704+07:00]  INFO 44556 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:25:40,956+07:00]  INFO 44556 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:25:43,172+07:00]  INFO 44556 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:25:43,177+07:00]  INFO 44556 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:25:43,414+07:00]  INFO 44556 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:25:45,589+07:00]  INFO 44556 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:25:45,607+07:00]  INFO 44556 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:25:45,649+07:00]  INFO 44556 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:25:45,691+07:00]  INFO 44556 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 7.181 seconds (JVM running for 8.047)
+[2018-10-26T14:25:51,161+07:00]  INFO 44556 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:30:12,595+07:00]  INFO 44683 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44683 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:30:12,602+07:00]  INFO 44683 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:30:13,732+07:00]  INFO 44683 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:30:16,671+07:00]  INFO 44683 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:30:16,674+07:00]  INFO 44683 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:30:16,854+07:00]  INFO 44683 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:30:19,315+07:00]  INFO 44683 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:30:20,424+07:00]  INFO 44683 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:30:20,472+07:00]  INFO 44683 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:30:20,534+07:00]  INFO 44683 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:30:20,675+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPrincipalAndAfterAndTypeUsingGET_1
+[2018-10-26T14:30:21,042+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_1
+[2018-10-26T14:30:21,045+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_2
+[2018-10-26T14:30:21,048+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_3
+[2018-10-26T14:30:21,050+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_4
+[2018-10-26T14:30:21,053+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_5
+[2018-10-26T14:30:21,056+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_6
+[2018-10-26T14:30:21,059+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_7
+[2018-10-26T14:30:21,062+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_8
+[2018-10-26T14:30:21,065+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_9
+[2018-10-26T14:30:21,068+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_10
+[2018-10-26T14:30:21,070+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_11
+[2018-10-26T14:30:21,075+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_12
+[2018-10-26T14:30:21,079+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_13
+[2018-10-26T14:30:21,083+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_14
+[2018-10-26T14:30:21,086+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_15
+[2018-10-26T14:30:21,114+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_16
+[2018-10-26T14:30:21,117+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_17
+[2018-10-26T14:30:21,126+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_18
+[2018-10-26T14:30:21,130+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_19
+[2018-10-26T14:30:21,135+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_20
+[2018-10-26T14:30:21,139+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_21
+[2018-10-26T14:30:21,144+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingHEAD_1
+[2018-10-26T14:30:21,152+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_22
+[2018-10-26T14:30:21,154+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_23
+[2018-10-26T14:30:21,163+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_24
+[2018-10-26T14:30:21,168+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_25
+[2018-10-26T14:30:21,176+07:00]  INFO 44683 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: valueUsingGET_1
+[2018-10-26T14:30:21,249+07:00]  INFO 44683 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:30:21,274+07:00]  INFO 44683 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:30:21,327+07:00]  INFO 44683 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:30:21,376+07:00]  INFO 44683 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 10.475 seconds (JVM running for 11.344)
+[2018-10-26T14:30:21,485+07:00]  INFO 44683 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:31:02,368+07:00]  INFO 44708 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44708 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:31:02,373+07:00]  INFO 44708 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:31:03,616+07:00]  INFO 44708 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:31:06,299+07:00]  INFO 44708 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:31:06,301+07:00]  INFO 44708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:31:06,493+07:00]  INFO 44708 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:31:08,582+07:00]  INFO 44708 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:31:09,370+07:00]  INFO 44708 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:31:09,420+07:00]  INFO 44708 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:31:09,484+07:00]  INFO 44708 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:31:09,597+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPrincipalAndAfterAndTypeUsingGET_1
+[2018-10-26T14:31:09,957+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_1
+[2018-10-26T14:31:09,962+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_2
+[2018-10-26T14:31:09,967+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_3
+[2018-10-26T14:31:09,970+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_4
+[2018-10-26T14:31:09,973+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_5
+[2018-10-26T14:31:09,977+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_6
+[2018-10-26T14:31:09,979+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_7
+[2018-10-26T14:31:09,983+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_8
+[2018-10-26T14:31:09,986+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_9
+[2018-10-26T14:31:09,989+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_10
+[2018-10-26T14:31:09,991+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_11
+[2018-10-26T14:31:09,994+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_12
+[2018-10-26T14:31:09,996+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_13
+[2018-10-26T14:31:10,002+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_14
+[2018-10-26T14:31:10,005+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_15
+[2018-10-26T14:31:10,033+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_16
+[2018-10-26T14:31:10,036+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_17
+[2018-10-26T14:31:10,044+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_18
+[2018-10-26T14:31:10,048+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_19
+[2018-10-26T14:31:10,054+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_20
+[2018-10-26T14:31:10,058+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_21
+[2018-10-26T14:31:10,061+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingHEAD_1
+[2018-10-26T14:31:10,067+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_22
+[2018-10-26T14:31:10,070+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_23
+[2018-10-26T14:31:10,081+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_24
+[2018-10-26T14:31:10,083+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_25
+[2018-10-26T14:31:10,087+07:00]  INFO 44708 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: valueUsingGET_1
+[2018-10-26T14:31:10,146+07:00]  INFO 44708 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:31:10,170+07:00]  INFO 44708 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:31:10,227+07:00]  INFO 44708 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:31:10,281+07:00]  INFO 44708 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 9.502 seconds (JVM running for 10.748)
+[2018-10-26T14:31:12,183+07:00]  INFO 44708 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:31:45,603+07:00]  INFO 44730 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44730 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:31:45,634+07:00]  INFO 44730 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:31:46,919+07:00]  INFO 44730 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:31:49,663+07:00]  INFO 44730 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:31:49,665+07:00]  INFO 44730 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:31:49,883+07:00]  INFO 44730 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:31:51,912+07:00]  INFO 44730 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:31:52,645+07:00]  INFO 44730 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:31:52,694+07:00]  INFO 44730 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:31:52,753+07:00]  INFO 44730 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:31:52,868+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPrincipalAndAfterAndTypeUsingGET_1
+[2018-10-26T14:31:53,227+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_1
+[2018-10-26T14:31:53,230+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_2
+[2018-10-26T14:31:53,233+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_3
+[2018-10-26T14:31:53,236+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_4
+[2018-10-26T14:31:53,238+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_5
+[2018-10-26T14:31:53,241+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_6
+[2018-10-26T14:31:53,243+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_7
+[2018-10-26T14:31:53,246+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_8
+[2018-10-26T14:31:53,249+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_9
+[2018-10-26T14:31:53,252+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_10
+[2018-10-26T14:31:53,255+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_11
+[2018-10-26T14:31:53,259+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_12
+[2018-10-26T14:31:53,261+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_13
+[2018-10-26T14:31:53,265+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_14
+[2018-10-26T14:31:53,269+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_15
+[2018-10-26T14:31:53,295+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_16
+[2018-10-26T14:31:53,298+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_17
+[2018-10-26T14:31:53,306+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_18
+[2018-10-26T14:31:53,310+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_19
+[2018-10-26T14:31:53,318+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_20
+[2018-10-26T14:31:53,323+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_21
+[2018-10-26T14:31:53,326+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingHEAD_1
+[2018-10-26T14:31:53,334+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_22
+[2018-10-26T14:31:53,338+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_23
+[2018-10-26T14:31:53,347+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_24
+[2018-10-26T14:31:53,350+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_25
+[2018-10-26T14:31:53,355+07:00]  INFO 44730 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: valueUsingGET_1
+[2018-10-26T14:31:53,408+07:00]  INFO 44730 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:31:53,423+07:00]  INFO 44730 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:31:53,471+07:00]  INFO 44730 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:31:53,520+07:00]  INFO 44730 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 9.016 seconds (JVM running for 10.038)
+[2018-10-26T14:31:55,718+07:00]  INFO 44730 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:33:59,534+07:00]  INFO 44788 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44788 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:33:59,538+07:00]  INFO 44788 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:34:00,691+07:00]  INFO 44788 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:34:03,126+07:00]  INFO 44788 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:34:03,128+07:00]  INFO 44788 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:34:03,312+07:00]  INFO 44788 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:34:05,429+07:00]  INFO 44788 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:34:06,191+07:00]  INFO 44788 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:34:06,233+07:00]  INFO 44788 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:34:06,305+07:00]  INFO 44788 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:34:06,436+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPrincipalAndAfterAndTypeUsingGET_1
+[2018-10-26T14:34:06,812+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_1
+[2018-10-26T14:34:06,815+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_2
+[2018-10-26T14:34:06,818+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_3
+[2018-10-26T14:34:06,821+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_4
+[2018-10-26T14:34:06,824+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_5
+[2018-10-26T14:34:06,827+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_6
+[2018-10-26T14:34:06,829+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_7
+[2018-10-26T14:34:06,836+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_8
+[2018-10-26T14:34:06,839+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_9
+[2018-10-26T14:34:06,842+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_10
+[2018-10-26T14:34:06,844+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_11
+[2018-10-26T14:34:06,849+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_12
+[2018-10-26T14:34:06,853+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_13
+[2018-10-26T14:34:06,857+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_14
+[2018-10-26T14:34:06,864+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_15
+[2018-10-26T14:34:06,890+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_16
+[2018-10-26T14:34:06,893+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_17
+[2018-10-26T14:34:06,901+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_18
+[2018-10-26T14:34:06,905+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_19
+[2018-10-26T14:34:06,910+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_20
+[2018-10-26T14:34:06,916+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_21
+[2018-10-26T14:34:06,919+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingHEAD_1
+[2018-10-26T14:34:06,928+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_22
+[2018-10-26T14:34:06,930+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_23
+[2018-10-26T14:34:06,939+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_24
+[2018-10-26T14:34:06,942+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_25
+[2018-10-26T14:34:06,946+07:00]  INFO 44788 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: valueUsingGET_1
+[2018-10-26T14:34:07,006+07:00]  INFO 44788 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:34:07,029+07:00]  INFO 44788 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:34:07,080+07:00]  INFO 44788 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:34:07,126+07:00]  INFO 44788 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 8.856 seconds (JVM running for 9.865)
+[2018-10-26T14:34:11,874+07:00]  INFO 44788 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:36:29,827+07:00]  INFO 44852 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44852 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:36:29,833+07:00]  INFO 44852 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:36:30,930+07:00]  INFO 44852 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:36:33,025+07:00]  INFO 44852 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:36:33,027+07:00]  INFO 44852 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:36:33,215+07:00]  INFO 44852 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:36:35,286+07:00]  INFO 44852 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:36:35,304+07:00]  INFO 44852 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:36:35,348+07:00]  INFO 44852 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:36:35,387+07:00]  INFO 44852 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 6.58 seconds (JVM running for 7.307)
+[2018-10-26T14:36:41,494+07:00]  INFO 44852 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:37:17,009+07:00]  INFO 44872 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44872 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:37:17,018+07:00]  INFO 44872 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:37:18,171+07:00]  INFO 44872 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:37:20,305+07:00]  INFO 44872 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:37:20,307+07:00]  INFO 44872 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:37:20,553+07:00]  INFO 44872 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:37:22,955+07:00]  INFO 44872 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:37:22,975+07:00]  INFO 44872 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:37:23,018+07:00]  INFO 44872 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:37:23,057+07:00]  INFO 44872 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 7.118 seconds (JVM running for 8.171)
+[2018-10-26T14:37:28,383+07:00]  INFO 44872 --- [http-nio-8084-exec-2] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:38:02,265+07:00]  INFO 44898 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44898 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:38:02,282+07:00]  INFO 44898 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:38:03,488+07:00]  INFO 44898 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:38:05,879+07:00]  INFO 44898 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:38:05,881+07:00]  INFO 44898 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:38:06,065+07:00]  INFO 44898 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:38:08,134+07:00]  INFO 44898 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:38:09,073+07:00]  INFO 44898 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:38:09,119+07:00]  INFO 44898 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:38:09,177+07:00]  INFO 44898 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:38:09,294+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPrincipalAndAfterAndTypeUsingGET_1
+[2018-10-26T14:38:09,682+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_1
+[2018-10-26T14:38:09,685+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_2
+[2018-10-26T14:38:09,688+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_3
+[2018-10-26T14:38:09,692+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_4
+[2018-10-26T14:38:09,696+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_5
+[2018-10-26T14:38:09,704+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_6
+[2018-10-26T14:38:09,707+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_7
+[2018-10-26T14:38:09,714+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_8
+[2018-10-26T14:38:09,717+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_9
+[2018-10-26T14:38:09,720+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_10
+[2018-10-26T14:38:09,723+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_11
+[2018-10-26T14:38:09,726+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_12
+[2018-10-26T14:38:09,728+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_13
+[2018-10-26T14:38:09,734+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_14
+[2018-10-26T14:38:09,738+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_15
+[2018-10-26T14:38:09,773+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_16
+[2018-10-26T14:38:09,776+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_17
+[2018-10-26T14:38:09,792+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_18
+[2018-10-26T14:38:09,797+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_19
+[2018-10-26T14:38:09,803+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_20
+[2018-10-26T14:38:09,816+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_21
+[2018-10-26T14:38:09,829+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingHEAD_1
+[2018-10-26T14:38:09,836+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_22
+[2018-10-26T14:38:09,898+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_23
+[2018-10-26T14:38:09,933+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_24
+[2018-10-26T14:38:09,936+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_25
+[2018-10-26T14:38:09,941+07:00]  INFO 44898 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: valueUsingGET_1
+[2018-10-26T14:38:10,069+07:00]  INFO 44898 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:38:10,090+07:00]  INFO 44898 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:38:10,135+07:00]  INFO 44898 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:38:10,178+07:00]  INFO 44898 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 9.161 seconds (JVM running for 10.13)
+[2018-10-26T14:38:11,368+07:00]  INFO 44898 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:38:44,656+07:00]  INFO 44922 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44922 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:38:44,662+07:00]  INFO 44922 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:38:45,797+07:00]  INFO 44922 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:38:48,530+07:00]  INFO 44922 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:38:48,533+07:00]  INFO 44922 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:38:48,710+07:00]  INFO 44922 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:38:50,704+07:00]  INFO 44922 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:38:51,553+07:00]  INFO 44922 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:38:51,605+07:00]  INFO 44922 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:38:51,666+07:00]  INFO 44922 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:38:51,789+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByPrincipalAndAfterAndTypeUsingGET_1
+[2018-10-26T14:38:52,154+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_1
+[2018-10-26T14:38:52,158+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_2
+[2018-10-26T14:38:52,160+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_3
+[2018-10-26T14:38:52,164+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_4
+[2018-10-26T14:38:52,167+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_5
+[2018-10-26T14:38:52,172+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_6
+[2018-10-26T14:38:52,174+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_7
+[2018-10-26T14:38:52,177+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_8
+[2018-10-26T14:38:52,180+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_9
+[2018-10-26T14:38:52,183+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_10
+[2018-10-26T14:38:52,185+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_11
+[2018-10-26T14:38:52,188+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_12
+[2018-10-26T14:38:52,190+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_13
+[2018-10-26T14:38:52,195+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_14
+[2018-10-26T14:38:52,197+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_15
+[2018-10-26T14:38:52,231+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_16
+[2018-10-26T14:38:52,234+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_17
+[2018-10-26T14:38:52,241+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_18
+[2018-10-26T14:38:52,245+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_19
+[2018-10-26T14:38:52,249+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_20
+[2018-10-26T14:38:52,254+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_21
+[2018-10-26T14:38:52,256+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingHEAD_1
+[2018-10-26T14:38:52,264+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_22
+[2018-10-26T14:38:52,269+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_23
+[2018-10-26T14:38:52,278+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_24
+[2018-10-26T14:38:52,280+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: invokeUsingGET_25
+[2018-10-26T14:38:52,287+07:00]  INFO 44922 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: valueUsingGET_1
+[2018-10-26T14:38:52,346+07:00]  INFO 44922 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:38:52,362+07:00]  INFO 44922 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:38:52,408+07:00]  INFO 44922 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:38:52,453+07:00]  INFO 44922 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 8.959 seconds (JVM running for 9.968)
+[2018-10-26T14:38:54,368+07:00]  INFO 44922 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:40:53,129+07:00]  INFO 44999 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 44999 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:40:53,136+07:00]  INFO 44999 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:40:54,291+07:00]  INFO 44999 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:40:57,269+07:00]  INFO 44999 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:40:57,270+07:00]  INFO 44999 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:40:57,473+07:00]  INFO 44999 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:40:59,637+07:00]  INFO 44999 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:41:00,456+07:00]  INFO 44999 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:41:00,496+07:00]  INFO 44999 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:41:00,566+07:00]  INFO 44999 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:41:00,933+07:00]  INFO 44999 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:41:00,953+07:00]  INFO 44999 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:41:01,001+07:00]  INFO 44999 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:41:01,038+07:00]  INFO 44999 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 8.964 seconds (JVM running for 9.864)
+[2018-10-26T14:41:07,019+07:00]  INFO 44999 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:42:11,071+07:00]  INFO 45041 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 45041 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:42:11,076+07:00]  INFO 45041 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:42:12,270+07:00]  INFO 45041 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:42:14,905+07:00]  INFO 45041 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:42:14,909+07:00]  INFO 45041 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:42:15,090+07:00]  INFO 45041 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:42:17,257+07:00]  INFO 45041 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:42:18,031+07:00]  INFO 45041 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:42:18,072+07:00]  INFO 45041 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:42:18,135+07:00]  INFO 45041 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:42:18,487+07:00]  INFO 45041 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:42:18,503+07:00]  INFO 45041 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:42:18,548+07:00]  INFO 45041 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:42:18,586+07:00]  INFO 45041 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 8.525 seconds (JVM running for 9.318)
+[2018-10-26T14:42:23,381+07:00]  INFO 45041 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T14:42:51,129+07:00]  INFO 45063 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 45063 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T14:42:51,148+07:00]  INFO 45063 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T14:42:52,435+07:00]  INFO 45063 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T14:42:55,070+07:00]  INFO 45063 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T14:42:55,072+07:00]  INFO 45063 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T14:42:55,248+07:00]  INFO 45063 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T14:42:57,255+07:00]  INFO 45063 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T14:42:58,152+07:00]  INFO 45063 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T14:42:58,192+07:00]  INFO 45063 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T14:42:58,247+07:00]  INFO 45063 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T14:42:58,629+07:00]  INFO 45063 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:42:58,645+07:00]  INFO 45063 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T14:42:58,687+07:00]  INFO 45063 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T14:42:58,723+07:00]  INFO 45063 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 8.634 seconds (JVM running for 9.446)
+[2018-10-26T14:43:00,558+07:00]  INFO 45063 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T15:37:15,359+07:00]  INFO 46306 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 46306 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T15:37:15,363+07:00]  INFO 46306 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T15:37:16,188+07:00]  INFO 46306 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T15:37:18,454+07:00]  INFO 46306 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T15:37:18,456+07:00]  INFO 46306 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T15:37:18,795+07:00]  INFO 46306 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T15:37:20,866+07:00]  INFO 46306 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T15:37:20,884+07:00]  INFO 46306 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T15:37:20,929+07:00]  INFO 46306 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T15:37:20,964+07:00]  INFO 46306 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 7.483 seconds (JVM running for 8.412)
+[2018-10-26T15:37:26,882+07:00]  INFO 46306 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T15:39:34,862+07:00]  INFO 46377 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 46377 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T15:39:34,866+07:00]  INFO 46377 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T15:39:35,904+07:00]  INFO 46377 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T15:39:38,375+07:00]  INFO 46377 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T15:39:38,378+07:00]  INFO 46377 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T15:39:38,560+07:00]  INFO 46377 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T15:39:40,817+07:00]  INFO 46377 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T15:39:40,834+07:00]  INFO 46377 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T15:39:40,870+07:00]  INFO 46377 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T15:39:40,902+07:00]  INFO 46377 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 7.154 seconds (JVM running for 7.915)
+[2018-10-26T15:39:45,041+07:00]  INFO 46377 --- [http-nio-8084-exec-2] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T15:40:54,275+07:00]  INFO 46418 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 46418 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T15:40:54,282+07:00]  INFO 46418 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T15:40:55,383+07:00]  INFO 46418 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T15:40:57,993+07:00]  INFO 46418 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T15:40:57,996+07:00]  INFO 46418 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T15:40:58,184+07:00]  INFO 46418 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T15:41:00,494+07:00]  INFO 46418 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T15:41:01,509+07:00]  INFO 46418 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T15:41:01,564+07:00]  INFO 46418 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T15:41:01,651+07:00]  INFO 46418 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T15:41:02,063+07:00]  INFO 46418 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T15:41:02,080+07:00]  INFO 46418 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T15:41:02,122+07:00]  INFO 46418 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T15:41:02,157+07:00]  INFO 46418 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 9.032 seconds (JVM running for 9.881)
+[2018-10-26T15:41:06,279+07:00]  INFO 46418 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-10-26T18:55:52,066+07:00]  INFO 51318 --- [main] c.c.f.b.api.FinanceBackendApplication    : Starting FinanceBackendApplication on Vishals-MacBook-Pro.local with PID 51318 (/Users/Vishal/Desktop/Coviamproject/finance-backend/finance-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Coviamproject/finance-backend)
+[2018-10-26T18:55:52,073+07:00]  INFO 51318 --- [main] c.c.f.b.api.FinanceBackendApplication    : No active profile set, falling back to default profiles: default
+[2018-10-26T18:55:53,163+07:00]  INFO 51318 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+[2018-10-26T18:55:55,670+07:00]  INFO 51318 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[2018-10-26T18:55:55,672+07:00]  INFO 51318 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+[2018-10-26T18:55:55,880+07:00]  INFO 51318 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring embedded WebApplicationContext
+[2018-10-26T18:55:57,969+07:00]  INFO 51318 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2018-10-26T18:55:58,824+07:00]  INFO 51318 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-10-26T18:55:58,868+07:00]  INFO 51318 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-10-26T18:55:58,951+07:00]  INFO 51318 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-10-26T18:55:59,360+07:00]  INFO 51318 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-10-26T18:55:59,377+07:00]  INFO 51318 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-10-26T18:55:59,419+07:00]  INFO 51318 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-10-26T18:55:59,458+07:00]  INFO 51318 --- [main] c.c.f.b.api.FinanceBackendApplication    : Started FinanceBackendApplication in 8.951 seconds (JVM running for 9.789)
+[2018-10-26T18:56:04,487+07:00]  INFO 51318 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/finance]       : Initializing Spring FrameworkServlet 'dispatcherServlet'

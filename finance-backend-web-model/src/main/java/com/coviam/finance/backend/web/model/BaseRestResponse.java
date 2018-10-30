@@ -9,6 +9,11 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
+
+/**
+ * Created by Vishal B on Oct, 2018
+ */
+
 public class BaseRestResponse<T> {
 
   private String errorMessage;

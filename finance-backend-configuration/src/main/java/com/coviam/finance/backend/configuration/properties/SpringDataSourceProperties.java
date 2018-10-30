@@ -8,6 +8,11 @@ import lombok.Data;
 @Configuration
 @ConfigurationProperties(prefix = "spring.dataSource")
 @Data
+
+/**
+ * Created by Vishal B on Oct, 2018
+ */
+
 public class SpringDataSourceProperties {
 
   private String driverClassName;

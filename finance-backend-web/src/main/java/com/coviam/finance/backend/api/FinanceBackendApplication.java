@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "com.coviam.finance.backend")
+@ComponentScan(basePackages = "com.coviam.finance")
 public class FinanceBackendApplication {
 
   public static void main(String[] args) {

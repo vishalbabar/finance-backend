@@ -6,6 +6,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.coviam.finance.master.model.constants.Constants;
+import com.coviam.finance.master.model.constants.FieldNames;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -14,17 +16,17 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 @Entity
-@Table(name = "currencyMaster")
+@Table(name = Constants.CURRENCY_MASTER)
 public class CurrencyMaster {
 
   @Id
-  @Column(name = "currency_id")
+  @Column(name = FieldNames.CURRENCY_ID)
   private Long currencyId;
 
-  @Column(name = "currency_code")
+  @Column(name = FieldNames.CURRENCY_CODE)
   private String currencyCode;
 
-  @Column(name = "currency_description")
+  @Column(name = FieldNames.CURRENCY_DESCRIPTION)
   private String currencyDescription;
 
 }

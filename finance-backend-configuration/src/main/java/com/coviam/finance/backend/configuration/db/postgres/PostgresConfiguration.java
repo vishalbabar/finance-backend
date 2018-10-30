@@ -25,6 +25,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import com.coviam.finance.backend.configuration.properties.SpringDataSourceProperties;
 
+/**
+ * Created by Vishal B on Oct, 2018
+ */
+
 @Configuration
 @EnableTransactionManagement
 @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class,

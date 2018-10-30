@@ -1,0 +1,6 @@
+[2018-10-28T22:29:28,621+07:00]  INFO 51318 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23529fee: startup date [Fri Oct 26 17:25:52 IST 2018]; root of context hierarchy
+[2018-10-28T22:29:29,475+07:00]  INFO 51318 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+[2018-10-28T22:29:29,477+07:00]  INFO 51318 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+[2018-10-28T22:29:29,480+07:00]  INFO 51318 --- [Thread-3] o.s.b.a.e.jmx.EndpointMBeanExporter      : Unregistering JMX-exposed beans on shutdown
+[2018-10-28T22:29:29,480+07:00]  INFO 51318 --- [Thread-3] o.s.b.a.e.jmx.EndpointMBeanExporter      : Unregistering JMX-exposed beans
+[2018-10-28T22:29:29,482+07:00]  INFO 51318 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
