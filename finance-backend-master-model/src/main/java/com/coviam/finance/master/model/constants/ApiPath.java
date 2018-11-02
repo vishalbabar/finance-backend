@@ -9,6 +9,7 @@ public interface ApiPath {
   /**
    * Base Api Paths
    */
+
   String API = "/api";
   String CURRENCY_MASTER = API + "/currency";
 
@@ -16,4 +17,5 @@ public interface ApiPath {
    * Common Api Paths
    */
   String FIND_BY_ID = "/findById";
+  String FIND_ALL="/findAll";
 }

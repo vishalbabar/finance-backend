@@ -1,4 +1,4 @@
-package com.coviam.finance.backend.web.model;
+package com.coviam.finance.backend.web.model.base;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
